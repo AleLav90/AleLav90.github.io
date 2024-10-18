@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scadenze Prodotti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Scadenze Prodotti</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="moduli.html">Moduli di Manutenzione</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="scadenze-prodotti">
+            <h2>Elenco Scadenze Prodotti</h2>
+            <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Cerca prodotto...">
+            <table id="scadenzeTable">
+                <thead>
+                    <tr>
+                        <th>Prodotto</th>
+                        <th>Giorni/Ore/Minuti</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Cornetto</td><td>48 H</td></tr>
+                    <tr><td>Muffin</td><td>3 Giorni, 3 H</td></tr>
+                    <tr><td>Mini Muffin</td><td>3 Giorni, 1 H 30 Min</td></tr>
+                    <tr><td>Macaron</td><td>3 Giorni, 2 H</td></tr>
+                    <tr><td>Mini Donut</td><td>3 Giorni, 30 Min</td></tr>
+                    <tr><td>Donut</td><td>24 H, 30 Min</td></tr>
+                    <tr><td>Brownie</td><td>2 Giorni, 3 H</td></tr>
+                    <tr><td>Tiramisù</td><td>2 Giorni, 5 H</td></tr>
+                    <tr><td>Cheesecake Fragole</td><td>2 Giorni, 3 H</td></tr>
+                    <tr><td>Multistrato</td><td>3 Giorni, 3 H</td></tr>
+                    <tr><td>Crema Caffè</td><td>3 Giorni</td></tr>
+                    <tr><td>Sciroppi Shake</td><td>3 Giorni</td></tr>
+                    <tr><td>Topping Cioccolato/Caramello</td><td>3 Giorni</td></tr>
+                    <tr><td>Topping Frutti di Bosco</td><td>60 Giorni</td></tr>
+                    <tr><td>Topping Pistacchio</td><td>30 Giorni</td></tr>
+                    <tr><td>Topping Bacio</td><td>30 Giorni</td></tr>
+                    <tr><td>Granella Oreo</td><td>10 Giorni</td></tr>
+                    <tr><td>Granella Snickers</td><td>7 Giorni</td></tr>
+                    <tr><td>Granella Bretzel</td><td>9 Giorni</td></tr>
+                    <tr><td>Smarties</td><td>7 Giorni</td></tr>
+                    <tr><td>Salsa Cheddar</td><td>24 H Aperta, 30 Min, 12 H</td></tr>
+                    <tr><td>Bacon a Scaglie</td><td>24 H Aperta, 20 Min, 4 H</td></tr>
+                    <tr><td>Insalate Finite</td><td>8 H</td></tr>
+                    <tr><td>Mix Aperta</td><td>24 H</td></tr>
+                    <tr><td>Mais</td><td>48 H</td></tr>
+                    <tr><td>Carote</td><td>48 H</td></tr>
+                    <tr><td>Olive Nere</td><td>10 Giorni</td></tr>
+                    <tr><td>Onion Shaker</td><td>4 H</td></tr>
+                    <tr><td>Cipolla Reidratata</td><td>24 H, 3 H Rinvenimento</td></tr>
+                    <tr><td>Buns</td><td>48 H, 3 H (Ceste Separate), 12 H (Ceste Impilate)</td></tr>
+                    <tr><td>Tortilla</td><td>3 Giorni, 24 H, 36 H</td></tr>
+                    <tr><td>Pancake</td><td>4 H, 12 H, 12 H</td></tr>
+                    <tr><td>Pancetta Conf. Aperta</td><td>48 H</td></tr>
+                    <tr><td>Gouda Busta Aperta</td><td>24 H</td></tr>
+                    <tr><td>Cipolla Caramellata</td><td>48 H</td></tr>
+                    <tr><td>Salame Piccante</td><td>48 H</td></tr>
+                    <tr><td>Parmigiano</td><td>24 H</td></tr>
+                    <tr><td>Salse in Tubo</td><td>48 H, 1 H</td></tr>
+                    <tr><td>Salsa My BBQ/BBQ/Yuzu</td><td>48 H</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

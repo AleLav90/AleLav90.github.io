@@ -1,0 +1,190 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#modulo-sezioni {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#modulo-sezioni button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#modulo-sezioni button:hover {
+    background-color: #218838;
+}
+
+#feste-di-compleanno {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#feste-di-compleanno h2 {
+    color: #007bff;
+}
+
+#feste-di-compleanno p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: left;
+    margin: 10px 0;
+}
+
+#feste-di-compleanno strong {
+    color: #ff6600;
+}
+
+#scadenze-prodotti {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#scadenzeTable {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#scadenzeTable, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#food-safety {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#food-safety h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#food-safety ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#food-safety ul li {
+    padding: 8px 0;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
